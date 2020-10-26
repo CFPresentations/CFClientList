@@ -15,6 +15,35 @@ namespace CFClientList.Data
         {
         }
 
-        DbSet<Contact> Contacts { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+            //#region ContactSeed
+            //modelBuilder.Entity<Contact>().HasData(
+            //    new Contact() { FirstName = "James", LastName = "Howlett", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "Erik", LastName = "Lehnsherr", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "Steve", LastName = "Rogers", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "Carol", LastName = "Danvers", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now },
+            //    new Contact() { FirstName = "", LastName = "", Email = "", Phone = "", Address1 = "", Address2 = "", City = "", State = "", ZipCode = "", Status = true, Verified = true, DateAdded = DateTimeOffset.Now });
+
+            //#endregion
+
+        //}
     }
 }
